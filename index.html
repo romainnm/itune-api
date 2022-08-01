@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Album Search</title>
+    <link rel="stylesheet" href="assets/main.css" />
+    <script src="assets/main.js" type="module"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fetch-jsonp/1.0.6/fetch-jsonp.min.js"
+      async
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="searchbar">
+        <input type="search" class="search" placeholder="Search..." required />
+      </div>
+    </header>
+    <main class="results">
+      <p class="result-text">Search album by Artist Name</p>
+      <hr />
+      <ul class="display-results"></ul>
+    </main>
+  </body>
+</html>
